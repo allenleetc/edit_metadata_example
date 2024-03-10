@@ -1,0 +1,7 @@
+fiftyone:
+    version: '*'
+name: "@allenleetc/edit_metadata"
+version: "1.0.0"
+description: Example of editing custom metadata
+operators:
+    - edit_metadata
