@@ -73,8 +73,8 @@ class EditMetadata(foo.Operator):
         set_val = [set_val]*len(view)
         view.set_values('field_notes',set_val)
 
-        ctx.trigger("reload_dataset")
-
+        ctx.ops.reload_dataset()
+        
         return {"updated": len(view)}
 
 
